@@ -42,7 +42,7 @@ int main() {
             std::cout << "\n";
         }
     } catch(std::invalid_argument) {
-        std::cout << userNumberFloat << " is not an integer";
+        std::cout << userNumberStr << " is not an integer";
         std::cout << "\n";
     }
     std::cout << "Thanks for playing";
