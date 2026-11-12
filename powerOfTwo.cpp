@@ -28,7 +28,7 @@ int main() {
         if (userNumberFloat == static_cast<int>(userNumberFloat)) {
             // check if user number is a positive number
             if (userNumberFloat >= 0) {
-                for (counter = 0; counter < userNumberFloat; counter++) {
+                for (counter = 0; counter <= userNumberFloat; counter++) {
                     powerOfSquare = pow(counter , 2);
                     std::cout << counter << "² = " << powerOfSquare;
                     std::cout << "\n";
